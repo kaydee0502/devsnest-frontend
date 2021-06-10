@@ -1,0 +1,33 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    height: 30vw;
+    width: 30vw;
+    background : url("sharingan.png") no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+#time{
+    position: relative;
+    margin: auto;
+    height: 10vw;
+    width: 10vw;
+    color : white;
+
+    text-align: center;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    transform-origin: bottom;
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: -5%;
+}
+body{
+    background-color: black;
+    font-size: x-large;
+}
