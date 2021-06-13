@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5% 5%;
+    outline: 5px solid rgb(74, 9, 104);
+    outline-offset: -30px;
+    margin: 5% 10% 5% 10%;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.342);
+    position: absolute;
+  }
+  
+  .mainheading {
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    padding: 10px 30px;
+    top: 1%;
+    right: 72%;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .part1 {
+    flex: 33%;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .line {
+    position: relative;
+  }
+  
+  .line:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    border-right: 2px solid black;
+    top: 30%;
+    bottom: 30%;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+
+  img{
+      width : 100%;
+      height: auto;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .container {
+      max-width: 70%;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .container {
+      max-width: 85%;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .container {
+      max-width: 90%;
+    }
+  }
