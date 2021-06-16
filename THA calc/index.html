@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src = "script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cal-box">
+        <form name="calculator">
+        <div class="inp">
+        <input
+            id="displayUP"
+            type="text"
+            name="display"
+            value=0
+            readonly
+          />
+          <input
+            id="displayDN"
+            type="text"
+            name="display"
+            placeholder="0"
+            readonly
+          />
+          </div>
+          <br />
+          <input
+            class="button"
+            type="button"
+            value="7"
+            onclick="append('7')"
+          />
+          <input
+            class="button"
+            type="button"
+            value="8"
+            onclick="append('8')"
+          />
+          <input
+            class="button"
+            type="button"
+            value="9"
+            onclick="append('9')"
+          />
+          <input
+            class="button mathbutton"
+            type="button"
+            value="+"
+            onclick="append('+')"
+          />
+          <br />
+          <input
+            class="button"
+            type="button"
+            value="4"
+            onclick="append('4')"
+          />
+          <input
+            class="button"
+            type="button"
+            value="5"
+            onclick="append('5')"
+          />
+          <input
+            class="button"
+            type="button"
+            value="6"
+            onclick="append('6')"
+          />
+          <input
+            class="button mathbutton"
+            type="button"
+            value="-"
+            onclick="append('-')"
+          />
+          <br />
+          <input
+            class="button"
+            type="button"
+            value="1"
+            onclick="append('1')"
+          />
+          <input
+            class="button"
+            type="button"
+            value="2"
+            onclick="append('2')"
+          />
+          <input
+            class="button"
+            type="button"
+            value="3"
+            onclick="append('3')"
+          />
+          <input
+            class="button mathbutton"
+            type="button"
+            value="x"
+            onclick="append('*')"
+          />
+          <br />
+          <input
+            class="button clearButton"
+            type="button"
+            value="C"
+            onclick="calculator.displayDN.value = '0' "
+          />
+          <input
+            class="button"
+            type="button"
+            value="0"
+            onclick="append('0')"
+          />
+          <input
+            class="button mathbutton"
+            type="button"
+            value="="
+            onclick="res()"
+          />
+          <input
+            class="button mathbutton"
+            type="button"
+            value="/"
+            onclick="append('/')"
+          />
+          <br />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
