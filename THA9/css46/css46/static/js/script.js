@@ -8,7 +8,7 @@ const elem = document.querySelectorAll(".box").forEach(item => {
             return
         }
         spray = true;
-        e.target.className === "w" ? e.target.className="r mb" : e.target.className="w mb" 
+        e.target.className === "w mb" ? e.target.className="r mb" : e.target.className="w mb" 
     });
 
     item.addEventListener("mouseup",(e)=>{
@@ -28,7 +28,7 @@ const elem = document.querySelectorAll(".box").forEach(item => {
         }
         
         if(spray){
-        e.target.className === "w" ? e.target.className="r mb" : e.target.className="w mb" 
+        e.target.className === "w mb" ? e.target.className="r mb" : e.target.className="w mb" 
         }
     });
 

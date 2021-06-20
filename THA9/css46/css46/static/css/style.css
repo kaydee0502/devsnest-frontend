@@ -29,7 +29,7 @@ body{
     grid-template-rows: repeat(6,auto);
 }
 .mb{
-    border: 1px solid rgb(243, 72, 72);
+    border: 1px solid rgb(235, 145, 145);
 }
 
 h5{
