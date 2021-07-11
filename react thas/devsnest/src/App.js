@@ -5,6 +5,7 @@ import "./App.css";
 import MemeCard from "./memeCard/memeCard";
 import Header from './CalC/Header';
 import CalorieCounter from "./CalC/CalC"
+import CalorieCounterAdv from "./CalCAdv/CalC"
 // import Day17 from "./components/day17";
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
         <Route exact path="/day17">
           <Header />
           <CalorieCounter />
+        </Route>
+        <Route exact path="/day18">
+          <Header />
+          <CalorieCounterAdv />
         </Route>
       </Switch>
     </Router>
