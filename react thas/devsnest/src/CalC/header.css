@@ -1,0 +1,8 @@
+header {
+    background-color: rgb(9, 122, 117);
+    color: rgb(0, 0, 0);
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
